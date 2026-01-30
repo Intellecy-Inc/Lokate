@@ -1,0 +1,449 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "fields": [
+        {
+          "fieldType": "string",
+          "defaultValue": "",
+          "value": "",
+          "choices": [],
+          "fieldName": "Area/location"
+        },
+        {
+          "fieldType": "date",
+          "defaultValue": "$assignment.datetime.start.d",
+          "value": "",
+          "choices": [],
+          "fieldName": "Training date"
+        },
+        {
+          "choices": [
+            "$Organizations"
+          ],
+          "fieldType": "choices",
+          "defaultValue": "SDSOSAR",
+          "value": "",
+          "fieldName": "Organization"
+        },
+        {
+          "choices": [],
+          "fieldType": "string",
+          "defaultValue": "joost",
+          "value": "",
+          "fieldName": "Handler name"
+        },
+        {
+          "choices": [],
+          "fieldType": "string",
+          "defaultValue": "Lars",
+          "value": "",
+          "fieldName": "Canine name"
+        },
+        {
+          "choices": [
+            "$Flankers"
+          ],
+          "fieldType": "choices",
+          "help": "",
+          "defaultValue": "",
+          "value": "",
+          "fieldName": "Flanker"
+        },
+        {
+          "choices": [],
+          "defaultValue": "$assignment.datetime.start.t",
+          "value": "",
+          "fieldName": "Time in",
+          "fieldType": "time"
+        },
+        {
+          "choices": [],
+          "defaultValue": "$assignment.datetime.stop.t",
+          "value": "",
+          "fieldName": "Time out",
+          "fieldType": "time"
+        },
+        {
+          "choices": [
+            "$Design"
+          ],
+          "defaultValue": "Known",
+          "value": "",
+          "fieldName": "Design",
+          "fieldType": "choices"
+        },
+        {
+          "choices": [
+            "yes",
+            "no"
+          ],
+          "defaultValue": "yes",
+          "value": "",
+          "fieldName": "Area known?",
+          "fieldType": "yesno"
+        },
+        {
+          "choices": [],
+          "defaultValue": "$assignment.elevation.ave",
+          "unitStr": "ft",
+          "value": "",
+          "fieldName": "Elevation",
+          "fieldType": "number"
+        },
+        {
+          "choices": [
+            "$Wind Directions"
+          ],
+          "defaultValue": "$weather.wind.direction.ave",
+          "unitStr": "",
+          "value": "",
+          "fieldName": "Wind Direction",
+          "fieldType": "choices"
+        },
+        {
+          "choices": [
+            "$Temperature Ranges"
+          ],
+          "defaultValue": "$weather.ambient.ave",
+          "unitStr": "°F",
+          "value": "",
+          "fieldName": "Temperature",
+          "fieldType": "choices"
+        },
+        {
+          "choices": [
+            "$Humidity Ranges"
+          ],
+          "defaultValue": "$weather.rh.ave",
+          "unitStr": "%",
+          "value": "",
+          "fieldName": "Humidity",
+          "fieldType": "choices"
+        },
+        {
+          "defaultValue": "$weather.wind.speed.ave",
+          "help": "<4 smoke moves, 4-7 wind felt on face, 7-10 small twigs move, 10-14 dust raises, 14> branches sway, crested waves",
+          "choices": [
+            "$Wind Speed"
+          ],
+          "fieldName": "Wind speed",
+          "value": "",
+          "unitStr": "mph",
+          "fieldType": "choices"
+        },
+        {
+          "fieldType": "choices",
+          "value": "",
+          "choices": [
+            "$Precipitation"
+          ],
+          "defaultValue": "None",
+          "fieldName": "Weather"
+        },
+        {
+          "fieldType": "choices",
+          "value": "",
+          "choices": [
+            "$Ground conditions"
+          ],
+          "defaultValue": "Dry",
+          "fieldName": "Soil"
+        },
+        {
+          "fieldType": "choices",
+          "value": "",
+          "choices": [
+            "$Sky"
+          ],
+          "defaultValue": "Clear",
+          "fieldName": "Sky"
+        },
+        {
+          "fieldType": "choices",
+          "value": "",
+          "choices": [
+            "$Flankers"
+          ],
+          "defaultValue": "",
+          "fieldName": "Subject1"
+        },
+        {
+          "fieldType": "choices",
+          "value": "",
+          "choices": [
+            "$Subject Positions"
+          ],
+          "defaultValue": "",
+          "fieldName": "Position1"
+        },
+        {
+          "fieldType": "choices",
+          "value": "",
+          "choices": [
+            "$Flankers"
+          ],
+          "defaultValue": "",
+          "fieldName": "Subject2"
+        },
+        {
+          "fieldType": "choices",
+          "value": "",
+          "choices": [
+            "$Subject Positions"
+          ],
+          "defaultValue": "",
+          "fieldName": "Position2"
+        },
+        {
+          "fieldType": "choices",
+          "value": "",
+          "choices": [
+            "$Flankers"
+          ],
+          "defaultValue": "",
+          "fieldName": "Subject3"
+        },
+        {
+          "fieldType": "choices",
+          "value": "",
+          "choices": [
+            "$Subject Positions"
+          ],
+          "defaultValue": "",
+          "fieldName": "Position3"
+        },
+        {
+          "fieldType": "number",
+          "value": "",
+          "choices": [],
+          "unitStr": "min",
+          "defaultValue": "",
+          "fieldName": "Scent pool age"
+        },
+        {
+          "fieldType": "number",
+          "value": "",
+          "choices": [],
+          "unitStr": "acre",
+          "defaultValue": "",
+          "fieldName": "Area size"
+        },
+        {
+          "fieldType": "choices",
+          "value": "",
+          "choices": [
+            "$Area Types"
+          ],
+          "defaultValue": "Wilderness ",
+          "fieldName": "Area type"
+        },
+        {
+          "fieldType": "number",
+          "value": "",
+          "choices": [],
+          "unitStr": "#",
+          "defaultValue": "",
+          "fieldName": "Subjects located"
+        },
+        {
+          "fieldType": "stringMulti",
+          "value": "",
+          "choices": [],
+          "defaultValue": "",
+          "fieldName": "Goal(s)"
+        },
+        {
+          "fieldType": "stringMulti",
+          "value": "",
+          "choices": [],
+          "defaultValue": "",
+          "fieldName": "Summary description"
+        },
+        {
+          "fieldType": "stringMulti",
+          "value": "",
+          "choices": [],
+          "defaultValue": "",
+          "fieldName": "Corrections needed"
+        }
+      ],
+      "name": "Area Training V7"
+    }
+  ],
+  "lists": [
+    {
+      "name": "Flankers",
+      "items": [
+        "George Washington",
+        "Abraham Lincoln",
+        "Thomas Jefferson",
+        "Theodore Roosevelt",
+        "Franklin D. Roosevelt",
+        "John F. Kennedy",
+        "Ronald Reagan",
+        "Barack Obama",
+        "Dwight D. Eisenhower",
+        "Harry S. Truman"
+      ]
+    },
+    {
+      "name": "Subject Positions",
+      "items": [
+        "Standing/quiet",
+        "Sitting/quiet",
+        "Laying down/quiet",
+        "Walking/quiet",
+        "In accessible/quiet",
+        "Standing/loud",
+        "Sitting/loud",
+        "Laying down/loud",
+        "Walking/loud",
+        "In accessible/loud",
+        "HR/accessible",
+        "HR/in accessible"
+      ]
+    },
+    {
+      "name": "Area Types",
+      "items": [
+        "Residential",
+        "Wilderness",
+        "Urban",
+        "Building",
+        "Industrial",
+        "Office park",
+        "Rural",
+        "Forrest",
+        "Open field",
+        "Mountain",
+        "Shoreline",
+        "Wetland",
+        "Snow",
+        "Water",
+        "Disaster",
+        "Collapsed"
+      ]
+    },
+    {
+      "name": "Design",
+      "items": [
+        "Single blind",
+        "Double blind",
+        "Known",
+        "Blank",
+        "Proofing",
+        "Negative control"
+      ]
+    },
+    {
+      "name": "Sky",
+      "items": [
+        "Clear",
+        "Overcast",
+        "Partly cloudy",
+        "Fog"
+      ]
+    },
+    {
+      "name": "Precipitation",
+      "items": [
+        "None",
+        "Drizzle",
+        "Rain",
+        "Snow",
+        "Hail",
+        "Sleet"
+      ]
+    },
+    {
+      "name": "Ground conditions",
+      "items": [
+        "Dry",
+        "Wet",
+        "Muddy",
+        "Icy",
+        "Snowy"
+      ]
+    },
+    {
+      "name": "Organizations",
+      "items": [
+        "SDSOSAR",
+        "CARDA",
+        "Other"
+      ]
+    },
+    {
+      "name": "Wind Directions",
+      "items": [
+        "n",
+        "ne",
+        "e",
+        "se",
+        "s",
+        "sw ",
+        "w",
+        "nw"
+      ]
+    },
+    {
+      "name": "Wind Speed",
+      "items": [
+        "< 4",
+        "4 - 7",
+        "7 - 10",
+        "10 - 14",
+        "14 - 25"
+      ]
+    },
+    {
+      "name": "Temperature Ranges",
+      "items": [
+        "30-40",
+        "40-50",
+        "50-60",
+        "60-70",
+        "70-80",
+        "80-90"
+      ]
+    },
+    {
+      "name": "Humidity Ranges",
+      "items": [
+        "<15",
+        "15-30",
+        "30-60",
+        "60-75",
+        ">75"
+      ]
+    },
+    {
+      "name": "Ground Conditions",
+      "items": [
+        "Dry",
+        "Wet",
+        "Muddy",
+        "Icy",
+        "Snowy",
+        "Marsh"
+      ]
+    },
+    {
+      "name": "Terrain ",
+      "items": [
+        "Rocky",
+        "Gravel",
+        "Sand",
+        "Asphalt",
+        "Cement ",
+        "Grass",
+        "Dirt",
+        "Mixed terrain",
+        "Carpet",
+        "Composite",
+        "Other"
+      ]
+    }
+  ]
+}
