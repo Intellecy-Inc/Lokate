@@ -1,0 +1,6 @@
+{
+  "presets": [
+    { "name": "Area Search Training", "url": "https://intellecy-inc.github.io/Lokate/config/area1.lokate" },
+    { "name": "Trailing Training", "url": "https://intellecy-inc.github.io/Lokate/config/trailing1.lokate" }
+  ]
+}
